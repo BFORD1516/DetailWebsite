@@ -52,12 +52,6 @@ body {
   transition: width 0.3s ease, height 0.3s ease; /* Smooth transition for size change */
 }
 
-.row img:hover {
-  width: 800px; /* Enlarged size on hover */
-  height: 800px; /* Enlarged size on hover */
-  z-index: 2; /* Ensure the enlarged image is above others */
-  position: relative; /* Necessary for z-index to take effect */
-}
 
 footer {
   padding: 1rem;
