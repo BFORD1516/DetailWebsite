@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Above and Beyond Coatings</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <div class="content-wrapper">
+      <header>
+        <h1>Contact Us!</h1>
+        <nav>
+          <a href="index.html" class="button">Home</a>
+          <a href="about.html" class="button">About</a>
+          <a href="Prices.html" class="button">Service and Pricing</a>
+          <a href="testimonials.html" class="button">Testimonials</a>
+          <a href="gallery.html" class="button">Gallery</a>
+          <a href="contact.html" class="button">Contact Us</a>
+        </nav>
+      </header>
+      <section id="contact-form">
+        <!-- Formspree Form -->
+        <form action="https://formspree.io/f/xeqygkge" method="POST">
+          <label for="email">Your Email</label>
+          <input name="Email" id="email" type="email" required />
+          <!-- Assuming you want to keep the name and message fields -->
+          <label for="name">Your Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+          <label for="message">Your Message</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2024 Above and Beyond Coatings</p>
+    </footer>
+    <script src="auto-detailing.js"></script>
+  </body>
+</html>

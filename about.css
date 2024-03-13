@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #dda74f; /* Gold text */
+  background-color: #000; /* Black background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Ensure content is centered horizontally */
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  padding-top: 80px; /* Adjusted top padding to account for the header */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  width: 100%; /* Full width */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+header {
+  background-color: #000;
+  color: #dda74f;
+  padding: 0.5rem 0;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0; /* Ensure header starts from the very left */
+  right: 0; /* Ensure header extends to the very right */
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: center; /* Center navigation links */
+  gap: 20px; /* Space between navigation links */
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button {
+  background-color: #000; /* Black background for buttons */
+  color: #dda74f; /* Gold text color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 2px solid #dda74f; /* Gold border for the buttons */
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #dda74f; /* Gold background on hover */
+  color: #000; /* Black text color on hover */
+}
+
+.about-section,
+footer {
+  text-align: center;
+  max-width: 800px; /* Limit width for better readability */
+  margin: auto; /* Center align */
+}
+
+.about-section {
+  background: rgba(255, 215, 0, 0.2);
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 100px auto 0; /* Increase top margin to account for fixed header */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  max-width: 800px; /* Ensure section does not become too wide */
+  text-align: left;
+  display: flex; /* Enable flexbox for vertical centering */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center-align the content */
+}
+
+.about-section h1,
+.about-section h2,
+.about-section h3 {
+  background-color: #dda74f;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0; /* Adjust spacing around headers */
+  width: 100%; /* Ensure headers extend full width of section */
+  text-align: center; /* Center text for headers */
+}
+
+footer {
+  padding: 1rem;
+  background-color: #000;
+  color: #dda74f;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  margin-top: auto; /* Keep footer at the bottom */
+}

@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #dda74f;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1,
+footer {
+  color: #dda74f;
+}
+
+nav .button,
+.button:hover {
+  background-color: #000;
+  color: #dda74f;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 2px solid #dda74f;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #dda74f;
+  color: #000;
+}
+
+.testimonials-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* This centers the items */
+  gap: 20px;
+}
+
+.testimonial-item {
+  background-color: rgba(221, 167, 79, 0.2);
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #dda74f;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  width: calc(
+    33.333% - 40px
+  ); /* Adjust width for 3 items per row, accounting for gap */
+  max-width: 250px; /* Ensures items do not exceed this width */
+}
+
+footer {
+  color: #dda74f;
+  padding: 1rem;
+  background-color: #000;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}

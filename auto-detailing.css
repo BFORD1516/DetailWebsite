@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20;
+  background: #000; /* Change to solid black for a sleek look */
+  color: #dda74f; /* Gold text for contrast */
+}
+
+header {
+  background: #000; /* Black background for the header */
+  color: #dda74f; /* Gold text color */
+  padding: 0.5rem 0; /* Adjusted padding */
+  text-align: center;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 50px 20px;
+  color: #dda74f; /* Gold text on the hero section for high contrast */
+}
+
+.hero-section h1,
+.hero-section h2 {
+  color: #dda74f; /* Ensuring all text in the hero section is gold */
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button {
+  background-color: #000; /* Black background for buttons */
+  color: #dda74f; /* Gold text color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 2px solid #dda74f; /* Gold border for the buttons */
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #dda74f; /* Gold background on hover */
+  color: #000; /* Black text color on hover */
+}
+
+.call-today .phone-symbol {
+  margin-right: 5px;
+}
+
+/* Updated styles for the services section to match the black and gold theme */
+section {
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+  color: #dda74f; /* Gold text for services list */
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(255, 215, 0, 0.5); /* Soft gold shadow for depth */
+  max-width: 600px;
+}
+
+section ul li {
+  text-align: left; /* Ensure list items align to the left */
+}
+
+.video-section {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px; /* Space from the content above */
+}
+
+.video-section h2 {
+  color: #dda74f; /* Ensuring the heading is gold */
+  margin-bottom: 20px; /* Space above the video */
+}
+
+.video-section iframe {
+  width: 100%; /* Responsive width */
+  max-width: 640px; /* Maximum width */
+  height: 360px; /* Fixed height, consider aspect ratio */
+  border-radius: 10px; /* Soft rounded corners */
+  border: 2px solid #dda74f; /* Gold border around the video */
+  box-shadow: 0 4px 8px rgba(255, 215, 0, 0.5); /* Soft gold shadow for depth */
+}
+
+/* Rest of the styles... */
+
+footer {
+  padding: 1rem;
+  background-color: #000;
+  color: #dda74f;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  margin-top: 40px; /* Increased space above the footer for cleanliness */
+}
