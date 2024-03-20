@@ -71,7 +71,8 @@ form textarea:focus {
 }
 
 form button {
-  margin-top: 20px; /* Spacing above the button */
+  margin-top: 20px;
+  cursor: pointer;/* Spacing above the button */
   /* Retain existing button styles */
 }
 
