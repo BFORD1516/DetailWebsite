@@ -8,7 +8,6 @@ body {
   margin: 0;
   padding: 20px;
   text-align: center;
-  position: relative;
 }
 
 h1 {
@@ -102,10 +101,10 @@ h1 {
   color: #000;
 }
 
-#calendar .blackout {
-  background-color: #444;
-  color: #fff;
-  cursor: not-allowed;
+#calendar .grayed-out {
+  background-color: #ccc; /* Light gray background for booked dates */
+  color: #1a1818; /* Darker gray text color */
+  cursor: not-allowed; /* Show a "not-allowed" cursor to indicate it's unclickable */
 }
 
 #calendar .appointment {
