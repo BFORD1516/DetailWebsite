@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detailing Service Calendar</title>
+    <link rel="stylesheet" href="calendar.css" />
+  </head>
+  <body>
+    <div class="logout-container">
+      <button id="logoutButton" class="button">Logout</button>
+    </div>
+
+    <h1>Detailing Service Calendar</h1>
+    <nav>
+      <a href="index.html" class="button">Home</a>
+      <a href="about.html" class="button">About</a>
+      <a href="Prices.html" class="button">Service and Pricing</a>
+      <a href="testimonials.html" class="button">Testimonials</a>
+      <a href="gallery.html" class="button">Gallery</a>
+      <a href="contact.html" class="button">Contact Us</a>
+      <a href="admin-login.html" class="button">Admin Login</a>
+    </nav>
+
+    <div class="calendar-container">
+      <div class="calendar-nav">
+        <button id="prevMonth" class="nav-button">Previous</button>
+        <h2 id="calendarTitle"></h2>
+        <button id="nextMonth" class="nav-button">Next</button>
+      </div>
+      <div id="calendar" class="calendar-grid"></div>
+    </div>
+
+    <div class="form-container" id="form-container" style="display: none">
+      <form id="serviceForm">
+        <label for="date">Date:</label>
+        <input type="text" id="date" name="date" readonly /><br />
+
+        <label for="year">Year:</label>
+        <input type="text" id="year" name="year" required /><br />
+
+        <label for="make">Make:</label>
+        <input type="text" id="make" name="make" required /><br />
+
+        <label for="model">Model:</label>
+        <input type="text" id="model" name="model" required /><br />
+
+        <label for="service">Service Request:</label>
+        <input type="text" id="service" name="service" required /><br />
+
+        <button type="submit" class="button">Submit</button>
+      </form>
+    </div>
+
+    <footer>
+      <p>© 2024 Detailing Service</p>
+    </footer>
+
+    <script src="calendar.js"></script>
+  </body>
+</html>

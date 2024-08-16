@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #dda74f;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  color: #dda74f;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button {
+  background-color: #000; /* Black background for buttons */
+  color: #dda74f; /* Gold text color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 2px solid #dda74f; /* Gold border for the buttons */
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #dda74f;
+  color: #000;
+}
+
+.logout-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.calendar-container {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #000;
+  color: #dda74f;
+  border: 2px solid #dda74f;
+  border-radius: 10px;
+  width: fit-content;
+  height: auto;
+}
+
+.calendar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.nav-button {
+  background-color: #000;
+  color: #dda74f;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #dda74f;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: #dda74f;
+  color: #000;
+}
+
+#calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+#calendar .day {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid #dda74f;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#calendar .day:hover {
+  background-color: #dda74f;
+  color: #000;
+}
+
+#calendar .blackout {
+  background-color: #444;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+#calendar .appointment {
+  background-color: #ffa500;
+  color: #000;
+  font-weight: bold;
+}
+
+.form-container {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #000;
+  color: #dda74f;
+  border: 2px solid #dda74f;
+  border-radius: 10px;
+  width: fit-content;
+  display: none;
+}
+
+.form-container input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 2px solid #dda74f;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+}
+
+button {
+  background-color: #000;
+  color: #dda74f;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #dda74f;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #dda74f;
+  color: #000;
+}
+
+footer {
+  padding: 1rem;
+  background-color: #000;
+  color: #dda74f;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  margin-top: auto;
+}

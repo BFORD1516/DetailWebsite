@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #dda74f; /* Gold */
+  background-color: #000; /* Black */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align items at the top of the flex container */
+  align-items: center;
+  min-height: 100vh;
+}
+
+.buttons-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Add margin to create space between top and buttons */
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  background-color: #000; /* Black background for buttons */
+  color: #dda74f; /* Gold text color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 2px solid #dda74f; /* Gold border for the buttons */
+  transition: all 0.3s ease-in-out;
+}
+
+.login-container {
+  background: rgba(255, 215, 0, 0.2); /* Semi-transparent gold */
+  padding: 40px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  margin-top: 50px; /* Adjust as needed to move the form further down */
+}
+
+h2 {
+  color: #dda74f;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center; /* Center the form elements horizontally */
+}
+
+label {
+  color: #dda74f;
+  font-size: 1rem;
+  text-align: left;
+  width: 100%; /* Full width to align labels with inputs */
+  max-width: 300px; /* Adjusted to control label width */
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  border: 2px solid #dda74f;
+  border-radius: 5px;
+  background-color: #333; /* Dark background for input fields */
+  color: #fff; /* White text color */
+  width: 100%; /* Full width for inputs */
+  max-width: 400px; /* Adjusted to control input width */
+}
+
+button {
+  background-color: #000; /* Black background for buttons */
+  color: #dda74f; /* Gold text color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #dda74f; /* Gold border */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 100%; /* Full width for button */
+  max-width: 300px; /* Adjusted to control button width */
+}
+
+button:hover {
+  background-color: #dda74f; /* Gold background on hover */
+  color: #000; /* Black text on hover */
+}
+
+#errorMessage,
+#resetMessage {
+  color: red;
+  margin-top: 10px;
+}
+
+#resetMessage {
+  color: green;
+}
+
+footer {
+  background: #000;
+  color: #ffd700;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}

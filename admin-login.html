@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="admin-login.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" class="button">Home</a>
+      <a href="about.html" class="button">About</a>
+      <a href="Prices.html" class="button">Service and Pricing</a>
+      <a href="testimonials.html" class="button">Testimonials</a>
+      <a href="gallery.html" class="button">Gallery</a>
+      <a href="contact.html" class="button">Contact Us</a>
+      <a href="admin-login.html" class="button">Admin Login</a>
+      <a href="calendar.html" class="button">Calendar</a>
+     
+    </nav>
+    <div class="login-container">
+        <h2>Admin Login</h2>
+        <form id="adminLoginForm">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          <button type="submit">Login</button>
+        </form>
+        <p id="errorMessage"></p>
+      </div>
+      
+  
+      <p id="errorMessage" style="color: red;"></p>
+      
+      <button id="resetPasswordButton" class="button">Reset Password</button>
+      <p id="resetMessage" style="color: green;"></p>
+      
+      <p id="errorMessage" style="color: red"></p>
+      <div id="createAdminSection">
+        <p id="creationMessage" style="color: green"></p>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2024 Detailing Service</p>
+    </footer>
+
+    <script src="admin-login.js"></script>
+  </body>
+</html>
